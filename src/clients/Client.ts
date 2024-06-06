@@ -267,7 +267,7 @@ export class Client extends EventEmitter {
           this.emit("error", e);
         }
       };
-      return once(this, "connect").then(() => true);
+      return once(this, "connected").then(() => true);
     } catch (e) {
       if (e instanceof Error && e.name === "AbortError")
         return Promise.reject(new Error("Client#connect connection timeout."));

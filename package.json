@@ -1,6 +1,6 @@
 {
   "name": "@tunebotorg/listenmoe",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A wrapper for listen.moe gateway and rest apis",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
